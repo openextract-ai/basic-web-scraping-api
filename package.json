@@ -1,0 +1,29 @@
+{
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts"
+  },
+  "dependencies": {
+    "@extra/proxy-router": "^3.1.6",
+    "@hono/node-server": "^1.11.1",
+    "cheerio": "^1.0.0-rc.12",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5",
+    "got-scraping": "^4.0.5",
+    "hono": "^4.3.7",
+    "http-proxy-agent": "^7.0.2",
+    "ky": "^1.2.4",
+    "puppeteer-core": "^22.9.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-adblocker": "^2.13.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "turndown": "^7.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "@types/turndown": "^5.0.4",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.5"
+  }
+}
